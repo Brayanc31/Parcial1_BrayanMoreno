@@ -1,0 +1,9 @@
+p->k4
+kbp X qn
+p->k4 
+kbp X qn 
+abc->d
+x X y
+p->k4x
+kbpXqn
+p->
