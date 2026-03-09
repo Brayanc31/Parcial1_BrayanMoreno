@@ -14,8 +14,8 @@
 "("                 { return PARI; }
 ")"                 { return PARD; }
 [ \t]+              { /* ignorar espacios */ }
-\n                  { return *yytext; }   /* retorna el carácter nueva línea */
-.                   { return *yytext; }   /* cualquier otro carácter (para manejo de errores) */
+\n                  { return *yytext; }   
+.                   { return *yytext; }   
 
 %%
 
